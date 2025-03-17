@@ -35,7 +35,21 @@ int main(){
                         if(i >= 7 && i <= 9 && j == 2){
                             continue;
                             }
-                        
+                        //Implementação do Navio 3
+                    if(i == j && i >= 5 && i <= 7){
+                        printf("3 ");
+                    }
+                        if(i == j && i >= 5 && i <= 7){
+                            continue;
+                            }
+                               //Implementação do Navio 4
+                    if(i + j == 9 && i >= 0 && i <= 2){
+                        printf("3 ");
+                    }
+                        if(i + j == 9 && i >= 0 && i <= 2){
+                            continue;
+                            }
+                                                
 
                 printf("0 ");
         }
